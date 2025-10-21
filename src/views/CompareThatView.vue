@@ -23,6 +23,10 @@ const isFormInvalid = computed(() => {
   return !name.value || !price.value || !volume.value || !measuringType.value || !shop.value
 })
 
+const sortedTableData = computed(() => {
+  return [...tableData.value].sort((a, b) => a.pricePer - b.pricePer)
+})
+
 const dividePriceByQuantity = () => Math.round(price.value / volume.value)
 
 const addRow = () => {
@@ -56,7 +60,7 @@ const deleteRow = (id: number) => {
         <input v-model="name" type="text" placeholder="Enter name" class="input input-md" />
         <span>Name</span>
       </label>
-      <label class="floating-label">
+      <label class="floating-label w-[104px]">
         <input
           v-model.number="price"
           type="number"
@@ -68,14 +72,14 @@ const deleteRow = (id: number) => {
       </label>
       <label class="floating-label">
         <span class="label">Choose Measuring</span>
-        <select v-model="measuringType" class="select min-w-[120px]">
+        <select v-model="measuringType" class="select w-[120px]">
           <option value="1 piece">1 Piece</option>
           <option value="10 g">10 Gram</option>
           <option value="100 g">100 Gram</option>
           <option value="1 kg">1 Kilogram</option>
         </select>
       </label>
-      <label class="floating-label">
+      <label class="floating-label w-[104px]">
         <input
           v-model.number="volume"
           type="number"
@@ -87,7 +91,7 @@ const deleteRow = (id: number) => {
       </label>
       <label class="floating-label">
         <span class="label">Choose Marketplace</span>
-        <select v-model="shop" class="select min-w-[150px]">
+        <select v-model="shop" class="select w-[150px]">
           <option value="Yandex Market">Yandex Market</option>
           <option value="Ozon">Ozon</option>
           <option value="Wildberries">Wildberries</option>
@@ -112,26 +116,29 @@ const deleteRow = (id: number) => {
     <table v-else class="table-zebra mt-10 table">
       <thead>
         <tr>
-          <th></th>
+          <th>#</th>
           <th>Name</th>
           <th>Price</th>
           <th>per {{ measuringType }}</th>
           <th>Marketplace</th>
+          <th>Delete</th>
         </tr>
       </thead>
       <tbody>
-        <tr v-for="(row, idx) in tableData" :key="idx">
+        <tr v-for="(row, idx) in sortedTableData" :key="row.id">
           <th>{{ row.id }}</th>
           <td>{{ row.name }}</td>
           <td>{{ row.price }}</td>
-          <td>{{ row.pricePer }}</td>
+          <td :class="sortedTableData.length > 1 && idx === 0 ? 'text-green-500' : ''">
+            {{ row.pricePer }}
+          </td>
           <td>{{ row.shop }}</td>
-          <td className="px-6 py-4 whitespace-nowrap text-sm">
+          <td class="px-6 py-4 text-sm whitespace-nowrap">
             <button
-              @click="() => deleteRow(row.id)"
-              className="text-red-600 hover:text-red-800 font-medium cursor-pointer"
+              @click="deleteRow(row.id)"
+              class="cursor-pointer font-medium text-red-600 hover:text-red-800"
             >
-              Delete
+              X
             </button>
           </td>
         </tr>
