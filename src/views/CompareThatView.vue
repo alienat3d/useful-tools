@@ -79,7 +79,7 @@ const deleteRow = (id: number) => {
           <option value="1 kg">1 Kilogram</option>
         </select>
       </label>
-      <label class="floating-label w-[104px]">
+      <label class="floating-label w-[119px]">
         <input
           v-model.number="volume"
           type="number"
