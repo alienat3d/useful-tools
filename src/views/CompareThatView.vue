@@ -51,7 +51,7 @@ const deleteRow = (id: number) => {
 
 <template>
   <div class="container-center mx-auto py-16 text-center">
-    <h1 class="text-accent pb-8 text-3xl font-bold">Compare <span class="text-4xl">That</span></h1>
+    <h1 class="text-accent pb-8 text-3xl">Compare <span class="text-4xl">That</span></h1>
     <fieldset
       class="fieldset bg-base-200 border-base-300 rounded-box flex justify-center gap-x-4 border p-4"
     >

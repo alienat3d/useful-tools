@@ -1,0 +1,418 @@
+{
+	"persons": [
+		{
+			"name": "Sebastian Schliebs",
+			"birthday": "1979-01-02",
+			"photo": ""
+		},
+		{
+			"name": "Тимофей Бирюков",
+			"birthday": "2012-01-06",
+			"photo": ""
+		},
+		{
+			"name": "Оля Бирюкова",
+			"birthday": "--01-09",
+			"photo": ""
+		},
+		{
+			"name": "Толя Максимов",
+			"birthday": "--11-01",
+			"photo": ""
+		},
+		{
+			"name": "me",
+			"birthday": "1987-01-29",
+			"acquaintance-anniversary": "2021-11-19",
+			"photo": ""
+		},
+		{
+			"name": "Beate Sargberger",
+			"birthday": "--01-28",
+			"photo": ""
+		},
+		{
+			"name": "Саша Звёздочкина",
+			"birthday": "1987-02-07",
+			"photo": ""
+		},
+		{
+			"name": "Саня Звёздочкин",
+			"birthday": "1987-02-08",
+			"photo": ""
+		},
+		{
+			"name": "Мария (бабушка Кати)",
+			"birthday": "1936-02-09",
+			"photo": ""
+		},
+		{
+			"name": "Лена Теплоногова",
+			"birthday": "1980-02-12",
+			"wedding-anniversary": "2023-06-12",
+			"photo": ""
+		},
+		{
+			"name": "Бабушка",
+			"birthday": "1929-02-16",
+			"photo": ""
+		},
+		{
+			"name": "Kukkai",
+			"birthday": "1978-02-23",
+			"photo": ""
+		},
+		{
+			"name": "Костя Бирюков",
+			"birthday": "1983-02-25",
+			"photo": ""
+		},
+		{
+			"name": "Мария Кудрявцева",
+			"birthday": "--02-29",
+			"photo": ""
+		},
+		{
+			"name": "Ольга Максимова",
+			"birthday": "1986-03-01",
+			"photo": ""
+		},
+		{
+			"name": "Валерий Максимов",
+			"birthday": "1964-03-03",
+			"photo": ""
+		},
+		{
+			"name": "Ирина Мелёхина",
+			"birthday": "1985-03-11",
+			"photo": ""
+		},
+		{
+			"name": "Алексей Андреевич Гончаренко",
+			"birthday": "1959-03-31",
+			"photo": ""
+		},
+		{
+			"name": "Елена Максимова",
+			"birthday": "1963-04-06",
+			"photo": ""
+		},
+		{
+			"name": "Лена Ибрагимова (сестра)",
+			"birthday": "1980-04-17",
+			"photo": ""
+		},
+		{
+			"name": "Андрей Теплоногов",
+			"birthday": "1980-04-24",
+			"wedding-anniversary": "2023-06-12",
+			"photo": ""
+		},
+		{
+			"name": "Martina Wittig",
+			"birthday": "--04-29",
+			"photo": ""
+		},
+		{
+			"name": "Катюша Гончаренко",
+			"birthday": "1986-05-05",
+			"photo": ""
+		},
+		{
+			"name": "Санин папа",
+			"birthday": "1968-05-09",
+			"photo": ""
+		},
+		{
+			"name": "Борис Теплоногов",
+			"birthday": "1957-05-15",
+			"photo": ""
+		},
+		{
+			"name": "Анатолий Бирюков",
+			"birthday": "1956-05-21",
+			"photo": ""
+		},
+		{
+			"name": "Антон Мелёхин",
+			"birthday": "1977-05-27",
+			"photo": ""
+		},
+		{
+			"name": "Наталия Борисовна Гончаренко",
+			"birthday": "1962-05-28",
+			"photo": ""
+		},
+		{
+			"name": "Дарья Звёздочкина (Алексеева)",
+			"birthday": "1994-06-02",
+			"photo": ""
+		},
+		{
+			"name": "Sven Fröhlich",
+			"birthday": "1975-06-07",
+			"photo": ""
+		},
+		{
+			"name": "Папа",
+			"birthday": "1962-06-16",
+			"photo": ""
+		},
+		{
+			"name": "Вова Максимов",
+			"birthday": "--06-16",
+			"photo": ""
+		},
+		{
+			"name": "Настя Теплоногова",
+			"birthday": "2012-06-20",
+			"photo": ""
+		},
+		{
+			"name": "Séverine Friedrich",
+			"birthday": "1981-06-26",
+			"photo": ""
+		},
+		{
+			"name": "Соня Теплоногова",
+			"birthday": "2006-08-07",
+			"photo": ""
+		},
+		{
+			"name": "Инна Мелёхина",
+			"birthday": "1977-08-15",
+			"photo": ""
+		},
+		{
+			"name": "Farzana Ismaily",
+			"birthday": "1979-08-23",
+			"photo": ""
+		},
+		{
+			"name": "Женя Максимов",
+			"birthday": "1987-08-25",
+			"photo": ""
+		},
+		{
+			"name": "Gabi Finn",
+			"birthday": "1955-09-06",
+			"photo": ""
+		},
+		{
+			"name": "Marwin Ninnig",
+			"birthday": "2002-09-06",
+			"photo": ""
+		},
+		{
+			"name": "Ludwig Sargberger",
+			"birthday": "--09-18",
+			"photo": ""
+		},
+		{
+			"name": "Арзу Ибрагимов",
+			"birthday": "1975-09-18",
+			"photo": ""
+		},
+		{
+			"name": "Наталья Мелёхина",
+			"birthday": "1952-10-04",
+			"photo": ""
+		},
+		{
+			"name": "Isabelle Schlitzer",
+			"birthday": "1978-10-07",
+			"photo": ""
+		},
+		{
+			"name": "Денис Мелёхин",
+			"birthday": "2001-10-23",
+			"photo": ""
+		},
+		{
+			"name": "Егор Мельников",
+			"birthday": "2011-10-25",
+			"photo": ""
+		},
+		{
+			"name": "Лена Бирюкова",
+			"birthday": "1987-11-02",
+			"photo": ""
+		},
+		{
+			"name": "Павел Лисицин",
+			"birthday": "1982-11-13",
+			"photo": ""
+		},
+		{
+			"name": "Tasorn (NukNik) Tawanchai",
+			"birthday": "1997-11-15",
+			"photo": ""
+		},
+		{
+			"name": "Дедушка",
+			"birthday": "1928-11-24",
+			"name-day": "--11-21",
+			"photo": ""
+		},
+		{
+			"name": "Мама",
+			"birthday": "1964-11-22",
+			"wedding-anniversary": "1986-05-17",
+			"photo": ""
+		},
+		{
+			"name": "Наталья Бирюкова",
+			"birthday": "1957-12-03",
+			"name-day": "",
+			"photo": ""
+		},
+		{
+			"name": "Василиса Теплоногова",
+			"birthday": "2003-12-03",
+			"name-day": "",
+			"photo": ""
+		},
+		{
+			"name": "Mohamed (ben_ammar)",
+			"birthday": "--12-13",
+			"name-day": "",
+			"photo": ""
+		},
+		{
+			"name": "Joeisi",
+			"birthday": "--12-13",
+			"name-day": "",
+			"photo": ""
+		},
+		{
+			"name": "Jessica Schiliro",
+			"birthday": "--12-23",
+			"name-day": "",
+			"photo": ""
+		},
+		{
+			"name": "Людмила Теплоногова",
+			"birthday": "1956-12-28",
+			"name-day": "",
+			"photo": ""
+		}
+	],
+	"holidays": [
+		{
+			"date": "--01-09",
+			"holiday name": "День логиста"
+		},
+		{
+			"date": "--04-03",
+			"holiday name": "День web-программиста"
+		},
+		{
+			"date": "--04-03",
+			"holiday name": "День интернета"
+		},
+		{
+			"date": "--04-21",
+			"holiday name": "Международный день программиста"
+		},
+		{
+			"date": "--04-27",
+			"holiday name": "День работника скорой медицинской помощи"
+		},
+		{
+			"date": "--05-13",
+			"holiday name": "День фрилансера"
+		},
+		{
+			"date": "--05-24",
+			"holiday name": "День филолога"
+		},
+		{
+			"date": "--05-25",
+			"holiday name": "День российского предпринимательства"
+		},
+		{
+			"date": "--06-11",
+			"holiday name": "День плотника, столяра, краснодеревщика и сборщика мебели"
+		},
+		{
+			"date": "--06-18",
+			"holiday name": "День медицинского работника (Украина)"
+		},
+		{
+			"date": "--06-20",
+			"holiday name": "Международный день мед. работника"
+		},
+		{
+			"date": "--07-07",
+			"holiday name": "День Петра и Февронии"
+		},
+		{
+			"date": "--08-14",
+			"holiday name": "(2-ое воскресенье августа) День строителя"
+		},
+		{
+			"date": "--09-09",
+			"holiday name": "День города Мытищи"
+		},
+		{
+			"date": "--09-12",
+			"holiday name": "День программиста в России (12 в невисокосный)"
+		},
+		{
+			"date": "--09-13",
+			"holiday name": "День программиста в России (12 в невисокосный)",
+			"leap-year": true
+		},
+		{
+			"date": "--09-29",
+			"holiday name": "День интернета в России"
+		},
+		{
+			"date": "--09-29",
+			"holiday name": "Международный день переводчика"
+		},
+		{
+			"date": "--10-01",
+			"holiday name": "(1-ое воскресенье октября) День учителя (Украина)"
+		},
+		{
+			"date": "--10-04",
+			"holiday name": "Всемирный день учителя"
+		},
+		{
+			"date": "--10-11",
+			"holiday name": "День логиста"
+		},
+		{
+			"date": "--12-01",
+			"holiday name": "День банковского работника России"
+		}
+	],
+	"reminders": [
+		{
+			"exp-date": "29-10-2025",
+			"type": "Promo code",
+			"name": "Яндекс Маркет 4500₽"
+		},
+		{
+			"exp-date": "06-11-2025",
+			"type": "Promo code",
+			"name": "Яндекс Маркет 4500₽"
+		},
+		{
+			"exp-date": "08-11-2025",
+			"type": "Event",
+			"name": "Фестиваль трансформационных игр в Мытищах"
+		},
+		{
+			"exp-date": "13-11-2025",
+			"type": "ToDo",
+			"name": "Отмена подписки Premier"
+		},
+		{
+			"exp-date": "14-11-2025",
+			"type": "Promo code",
+			"name": "Flowwow 15%"
+		}
+	]
+}
